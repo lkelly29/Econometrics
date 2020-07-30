@@ -50,11 +50,11 @@ accuracy(DY)
 # predict next 5 observations for DY
 library(forecast)
 forecast(DY, 5)
-plot(forecast(DY, 5))
+plot(forecast(DY, 5)) + ggtitle("Time Series Plot: First Difference of Log of US GDP per year") + ylab("Billions ($)")
 
 # predict next 5 observations for Y
 forecast(Y, 5)
-plot(forecast(Y, 5))
+plot(forecast(Y, 5)) +  ggtitle("Time Series Plot: First Difference of US GDP per year") + ylab("Billions ($)")
 
 
 
