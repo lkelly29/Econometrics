@@ -2,7 +2,7 @@
 @author Kelly Lewis
 9/5/2020
 
-Linear Regression on IPO Data using year IPO went public and number of Days the
+Linear Regression on IPO Data using year IPO went public and average number of Days the
 stock had a higher percentage change than the S&P500
 
 Data Download:
